@@ -4,8 +4,22 @@
 	Welcome Page
 @stop
 @section('content')
-	<h2>Conversations</h2>
-	<h2>Across</h2>
-	<h2>Time</h2>
-	<h2>& Distance</h2>
+	
+	<div class="containerDiv">
+		<div class="divStyleA col-sm-6">
+			<h2>CONVERSATIONS</h2>
+			<img src="/images/conversations.jpg" placeholder="conversations">
+		</div>
+		
+		<div class="divStyleA placeRight col-sm-offset-6 col-sm-6">
+			<h2>ACROSS</h2>
+		</div>
+		<div class="divStyleA col-sm-6">
+			<h2>TIME</h2>
+		</div>
+		<div class="divStyleA col-sm-offset-6 col-sm-6">
+			<h2>AND DISTANCE</h2>
+		</div>
+		
+	</div>
 @stop
