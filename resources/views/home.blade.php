@@ -6,21 +6,23 @@
 @section('content')
 	
 	<div class="containerDiv">
-		<div class="divStyleA col-sm-6">
-			<h2>CONVERSATIONS</h2>
+		
+		<div class="divStyleA col-sm-6 col-md-12">
+			<text class="right">CONVERSATIONS</text>
 			<img src="/images/conversationsTwo.jpg" placeholder="conversations">
 		</div>
-		
+		<text>ACROSS</text>
 		<div class="divStyleA placeRight col-sm-offset-6 col-sm-6">
-			<h2>ACROSS</h2>
+			{{-- <text>ACROSS</text> --}}
 			<img src="/images/acrossTwo.jpg" placeholder="across">
 		</div>
-		<div class="divStyleA col-sm-6">
-			<h2>TIME</h2>
+		<div class="divStyleA col-sm-6 col-md-12">
+			<text class="right">TIME</text>
 			<img src="/images/distanceTwo.jpg" placeholder="distance">
 		</div>
-		<div class="divStyleA col-sm-offset-6 col-sm-6">
-			<h2>AND DISTANCE</h2>
+		<text class="col-sm-12">AND DISTANCE</text>
+		<div class="divStyleA col-sm-offset-6 col-sm-6 col-md-12">
+			{{-- <text>AND DISTANCE</text> --}}
 			<img src="/images/timeTwo.jpg" placeholder="distance">
 		</div>
 		

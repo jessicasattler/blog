@@ -1,5 +1,20 @@
 .divStyleA{
-	border-bottom: 5px solid black;
+	/*border-bottom: 5px solid black;*/
 	
+}
+
+body{
+	/*font-family: 'Indie Flower', cursive;*/
+	font-family: 'Dancing Script', cursive;
+}
+
+.right{
+	float:right;
+}
+
+.text{
+	
+	text-align: center;
+
 
 }
