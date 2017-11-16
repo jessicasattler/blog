@@ -1,0 +1,7 @@
+User Stories:
+
+Landing Page:
+When user navigates to website, if user is not verified then direct user to landing page.
+
+Registration:
+To create a new account, user must navigate to the navbar on the left hand side on scroll and navbar will display (use javascript).

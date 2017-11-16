@@ -21,8 +21,13 @@ body{
 
 }
 
-img{
+/*img{
 	border-radius: 23px;
 	border:5px solid white;
 	text-align: center;
+}*/
+
+.center{
+	text-align: center;
+	height:25%;
 }
