@@ -30,7 +30,7 @@
 
 	{{-- test carousel --}}
 	<div class="container">
-  <h2>Carousel Example</h2>  
+  <h2>Friend Blog</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -42,25 +42,24 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        {{-- <img src="la.jpg" alt="Los Angeles" style="width:100%;"> --}}
+        <h3 class="textCenter cursiveFont placeOverImage">Conversations</h3>
         <img src="/images/conversations.jpg" placeholder="conversations" class="center">
       </div>
 
       <div class="item">
-        {{-- <img src="chicago.jpg" alt="Chicago" class="center"> --}}
+
+        <h3 class="textCenter cursiveFont placeOverImage">Across</h3>
         <img src="/images/across.jpg" placeholder="conversations" class="center">
       </div>
-    
+   
       <div class="item">
-        {{-- <img src="ny.jpg" alt="New york" class="center"> --}}
+        <h3 class="textCenter cursiveFont placeOverImage">Time</h3>
         <img src="/images/distance.jpg" placeholder="conversations" class="center">
-
       </div>
 
       <div class="item">
-        {{-- <img src="ny.jpg" alt="New york" class="center"> --}}
+        <h3 class="textCenter cursiveFont placeOverImage"> & Distance</h3>
         <img src="/images/time.jpg" placeholder="conversations" class="center">
-
       </div>
     </div>
 
@@ -81,8 +80,8 @@
 
 <script type="text/javascript">
 	
-	document.getElementById("across").addEventListener('mouseover', function() { /* do stuff here*/
-	console.log("Hey i was hovered over") }, false);
+	// document.getElementById("across").addEventListener('mouseover', function() { /* do stuff here*/
+	// console.log("Hey i was hovered over") }, false);
 
 	// document.getElementsByClassName("right").addEventListener('mouseover',function(){
 	// 	console.log("Hey this works with class names too");

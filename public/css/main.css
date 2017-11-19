@@ -3,8 +3,12 @@
 	
 }
 
+.container{
+	position: relative;
+}
+
 body{
-	/*font-family: 'Indie Flower', cursive;*/
+	font-family: 'Indie Flower', cursive;
 	font-family: 'Dancing Script', cursive;
 	background-color: black;
 	color:white;
@@ -14,20 +18,29 @@ body{
 	float:right;
 }
 
-.text{
-	
+.textCenter{
 	text-align: center;
-
-
 }
 
-/*img{
+img{
 	border-radius: 23px;
 	border:5px solid white;
-	text-align: center;
-}*/
+	/*position:relative;*/
+}
 
 .center{
 	text-align: center;
-	height:25%;
+	/*height:25%;*/
+}
+
+.cursiveFont{
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+}
+
+.placeOverImage{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
 }
