@@ -18,6 +18,11 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function secretSanta()
+    {
+        return view('secretSanta');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
