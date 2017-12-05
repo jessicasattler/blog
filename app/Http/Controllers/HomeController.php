@@ -23,6 +23,10 @@ class HomeController extends Controller
         return view('secretSanta');
     }
 
+    public function clickEvents()
+    {
+        return view('clickEvents');
+    }
     /**
      * Show the form for creating a new resource.
      *

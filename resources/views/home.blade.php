@@ -30,7 +30,7 @@
 
 	{{-- test carousel --}}
 	<div class="container">
-  <h2>Friend Blog</h2>  
+  <h2 class="textCenter cursiveFont">Friend Blog</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
