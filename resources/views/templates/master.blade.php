@@ -25,9 +25,9 @@
 
 <body>
 	<!-- As a link -->
-	<div>
-		<span><a href="#">Sign Up</a></span>
-		<span><a href="#" class="col-xs-offset-10">Log In</a></span>
+	<div class="container">
+		<span><a href="#" class="login">Sign Up</a></span>
+		<span><a href="#" class="right login">Log In</a></span>
 	</div>
 	@yield('content')
 </body>

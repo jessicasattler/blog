@@ -5,6 +5,7 @@
 
 .container{
 	position: relative;
+	margin-top:10px;
 }
 
 body{
@@ -12,6 +13,15 @@ body{
 	font-family: 'Dancing Script', cursive;
 	background-color: black;
 	color:white;
+}
+
+.login{
+	color:white;
+	font-size: 20px;
+}
+
+.login:hover{
+	color:pink;
 }
 
 .right{
