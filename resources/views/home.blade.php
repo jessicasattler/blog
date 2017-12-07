@@ -23,7 +23,7 @@
     <div class="carousel-inner">
       <div class="item active">
         <h3 class="textCenter cursiveFont placeOverImage">Conversations</h3>
-        <img src="/images/conversations.jpg" placeholder="conversations" class="center">
+        <img src="/images/friendsInTruck.jpg" placeholder="conversations" class="center">
       </div>
 
       <div class="item">
