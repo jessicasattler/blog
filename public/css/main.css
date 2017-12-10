@@ -15,14 +15,14 @@ body{
 	color:white;
 }
 
-.login{
+.in{
 	color:white;
 	font-size: 20px;
 }
 
-.login:hover{
+/*.in:hover{
 	color:pink;
-}
+}*/
 
 .registerOrSignUp{
 	color:pink;

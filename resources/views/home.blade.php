@@ -34,12 +34,13 @@
    
       <div class="item">
         <h3 class="textCenter cursiveFont placeOverImage">Time</h3>
-        <img src="/images/distance.jpg" placeholder="conversations" class="center">
+        <img src="/images/time.jpg" placeholder="conversations" class="center">
+       
       </div>
 
       <div class="item">
         <h3 class="textCenter cursiveFont placeOverImage"> & Distance</h3>
-        <img src="/images/time.jpg" placeholder="conversations" class="center">
+        <img src="/images/distance.jpg" placeholder="conversations" class="center">
       </div>
     </div>
 
@@ -52,6 +53,36 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+
+    {{-- Sign up form --}}
+    <div>
+      {{-- <a name="signUp">Sign Up Form</a> --}}
+      <form class="form">
+        {{-- sign up for will go here --}}
+        <a name="signUp">Sign Up</a>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+         proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+      </form>
+    </div>
+    {{-- Log in form --}}
+    <div>
+      <form>
+        {{-- login form will go here --}}
+        <a name="login">Login Form</a>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </form>
+      
+    </div>
+
   </div>
 </div>
 
@@ -66,6 +97,27 @@
 	// document.getElementsByClassName("right").addEventListener('mouseover',function(){
 	// 	console.log("Hey this works with class names too");
 	// },false);
+  // document.querySelector("#signUp").addEventListener('click', );
+
+  // document.querySelector("#signUpForm").addEventListener("click", trackButtonOne);
+
+  // function trackButtonOne(){
+
+  //   console.log("hey there, I'm button one");
+  // }
+
+  function navigate(element){
+    document.querySelector(element).addEventListener("click",
+
+      function(){
+        console.log("User clicked in "+ element);
+      }
+    )
+  };
+
+  navigate("#signUpForm");
+
+  navigate("#loginForm");
 </script>
 
 @stop
