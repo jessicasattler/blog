@@ -55,33 +55,38 @@
     </a>
 
     {{-- Sign up form --}}
-    <div>
+    <form class="form" action="POST" name="signUp">
+      <div class="form-group">
       {{-- <a name="signUp">Sign Up Form</a> --}}
-      <form class="form">
-        {{-- sign up for will go here --}}
-        <a name="signUp">Sign Up</a>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-         proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-      </form>
-    </div>
-    {{-- Log in form --}}
-    <div>
-      <form>
-        {{-- login form will go here --}}
-        <a name="login">Login Form</a>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </form>
+      <a name="signUp">Sign Up</a>
+      <div class="col-sm-3">Username</div>
+      <input type="text" class="form-control" name="username">
+       <div class="col-sm-3">Email</div>
+      <input type="email" class="form-control" name="email">
+       <div class="col-sm-3">Password</div>
+      <input type="password" class="form-control" name="password">
+       <div class="col-sm-3">Confirm Password</div>
+      <input type="email" class="form-control" name="confirmPassword">
+      <button type="submit" class="btn btn-primary">Submit</button>
       
-    </div>
+      </div>
+    </form>
+    {{-- Log in form --}}
+     <form class="form" action="POST" name="login">
+      <div class="form-group">
+      {{-- <a name="signUp">Sign Up Form</a> --}}
+      <a name="login">Login</a>
+      <div class="col-sm-3">Username</div>
+      <input type="text" class="form-control" name="username">
+     
+       <div class="col-sm-3">Password</div>
+      <input type="password" class="form-control" name="password">
+     
+      <button type="submit" class="btn btn-primary">Submit</button>
+      
+      </div>
+    </form>
+
 
   </div>
 </div>
@@ -111,6 +116,7 @@
 
       function(){
         console.log("User clicked in "+ element);
+        var message = "hello";
       }
     )
   };
