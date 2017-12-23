@@ -55,11 +55,11 @@
     </a>
 
     {{-- Sign up form --}}
-    <div class="backgroundColor col-xs-4 col-xs-offset-3">
+    <div class="backgroundColor col-xs-10 col-xs-offset-1">
       <form class="form" action="POST" name="signUp">
         <div class="form-group">
         {{-- <a name="signUp">Sign Up Form</a> --}}
-        <h2><a name="signUp">Sign Up</a></h2>
+        <h2 class="center"><a name="signUp">Sign Up</a></h2>
         <div class="col-sm-3">Username</div>
         <input type="text" class="form-control" name="username">
          <div class="col-sm-3">Email</div>
@@ -68,24 +68,24 @@
         <input type="password" class="form-control" name="password">
          <div class="col-sm-3">Confirm Password</div>
         <input type="email" class="form-control" name="confirmPassword">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary col-xs-offset-4 col-xs-4 spaceTop">Submit</button>
         
         </div>
       </form>
     </div>
     {{-- Log in form --}}
-    <div class="backgroundColor col-xs-4 col-xs-offset-3">
+    <div class="backgroundColor spaceTop col-xs-10 col-xs-offset-1">
        <form class="form" action="POST" name="login">
         <div class="form-group">
         {{-- <a name="signUp">Sign Up Form</a> --}}
-        <h2><a name="login">Login</a></h2>
+        <h2 class="center"><a name="login">Login</a></h2>
         <div class="col-sm-3">Username</div>
         <input type="text" class="form-control" name="username">
        
          <div class="col-sm-3">Password</div>
         <input type="password" class="form-control" name="password">
        
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary col-xs-offset-4 col-xs-4 spaceTop">Submit</button>
         
         </div>
       </form>

@@ -23,7 +23,9 @@ body{
 /*.in:hover{
 	color:pink;
 }*/
-
+a{
+	color:white;
+}
 .registerOrSignUp{
 	color:pink;
 }
@@ -62,6 +64,8 @@ img{
 	transform:translate(-50%, -50%);
 }
 .backgroundColor{
-	background-color:blue;
 	top:50px;
+}
+.spaceTop{
+	margin-top:20px;
 }
