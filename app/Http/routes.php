@@ -17,6 +17,11 @@ Route::get('/', function () {
 
 Route::get('/', 'HomeController@index');
 
+Route::get('/profile', 'HomeController@profile');
+
+
+
 Route::get('/secretSanta', 'HomeController@secretSanta');
 
 Route::get('/clickEvents', 'HomeController@clickEvents');
+
