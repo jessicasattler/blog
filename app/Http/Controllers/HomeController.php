@@ -23,10 +23,11 @@ class HomeController extends Controller
         return view('profile');
     }
 
-    public function secretSanta()
+    public function newsfeed()
     {
-        return view('secretSanta');
+        return view('newsfeed');
     }
+
 
     public function clickEvents()
     {

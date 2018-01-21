@@ -19,9 +19,7 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/profile', 'HomeController@profile');
 
-
-
-Route::get('/secretSanta', 'HomeController@secretSanta');
+Route::get('/newsfeed', 'HomeController@newsfeed');
 
 Route::get('/clickEvents', 'HomeController@clickEvents');
 
